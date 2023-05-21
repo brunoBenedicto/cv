@@ -1,3 +1,15 @@
+html, body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif
+}
+div > p {
+    text-align: justify;
+}
+img {
+    border-radius: 50%;
+    width: 200px; /* Ajuste o valor conforme necessário */
+    height: 200px; /* Ajuste o valor conforme necessário */
+    object-fit: cover; /* Para manter a proporção da imagem */
+  }
 .accordion {
     background-color: #eee;
     color: #444;
